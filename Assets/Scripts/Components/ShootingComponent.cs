@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class ShootingComponent : MonoBehaviour
@@ -8,6 +9,11 @@ public class ShootingComponent : MonoBehaviour
     private void OnEnable()
     {
         InputManager.BindOnFire(FireBullet);
+    }
+
+    private void OnDisable()
+    {
+        InputManager.RemoveOnFire(FireBullet);
     }
 
     private void FireBullet(InputAction.CallbackContext _obj)
