@@ -12,7 +12,6 @@ Archive repository including useful examples and packages.
 |------------------------------------------|----------------|
 | Intro To Events | [⚡ Download](https://github.com/epoHless/tutoring-lessons/releases/download/Events-01/EventsIntro.unitypackage) |
 | DPad Controller + Button | [⚡ Download](https://github.com/epoHless/tutoring-lessons/releases/download/Events-02/DPadController.unitypackage) |
-| Scriptable Events + Editor | [⚡ Download](https://github.com/epoHless/tutoring-lessons/releases/download/Tools-Scriptable-Events/Scriptable.Events.zip) |
 
 ---
 
